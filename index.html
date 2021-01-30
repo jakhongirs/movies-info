@@ -10,6 +10,23 @@
 <body>
   
   
+  <div class="container py-4">
+    <form class="js-search-form" action="/" method="GET">
+      <input class="form-control js-search-input" type="search" placeholder="Search" name="search" required>
+    </form>
+
+    <h2 class="movie__total-results p-3 bg-primary text-white">Total Results: </h2>
+    <ul class="movie__list"></ul>
+  </div>
+
+  <!-- Kinolar uchun qolib yasab olyabmiz -->
+  <template class="result-template">
+    <li class="movie__item">
+      <h3 class="movie__title">Keno <span class="movie__year"></span></h3>
+      <img class="movie__img" src="" alt="" width="250" height="300">
+      <button class="js-movie-info">Info</button>
+    </li>
+  </template> 
   
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

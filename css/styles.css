@@ -42,3 +42,22 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+.movie__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    margin: -15px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.movie__item{
+    margin: 15px;
+}
+
+.movie__total-results{
+    margin-top: 20px;
+}
